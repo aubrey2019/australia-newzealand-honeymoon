@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>澳新蜜月之旅 · 2026</title>
+  <meta name="description" content="15天澳大利亚&新西兰蜜月旅行攻略可视化" />
+  <meta name="theme-color" content="#080d18" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ Particles ═══ -->
+  <canvas id="particles"></canvas>
+
+  <!-- ═══ Hero ═══ -->
+  <header id="hero">
+    <div class="hero-bg" style="background-image:url('images/hero_bg.webp')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+      <span class="hero-eyebrow">2026 · 04.18 — 05.02</span>
+      <h1 class="hero-title">
+        <span class="t-line">Australia</span>
+        <span class="t-amp">&amp;</span>
+        <span class="t-line">New Zealand</span>
+      </h1>
+      <p class="hero-tagline">悉尼 · 南岛自驾 · 奥克兰<br>15 天蜜月环游攻略</p>
+
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-val" data-count="15">0</span><span class="stat-lbl">天行程</span></div>
+        <div class="stat"><span class="stat-val" data-count="2">0</span><span class="stat-lbl">个国家</span></div>
+        <div class="stat"><span class="stat-val" data-count="10">0</span><span class="stat-lbl">+ 城市</span></div>
+        <div class="stat"><span class="stat-val" data-count="1200">0</span><span class="stat-lbl">km+ 自驾</span></div>
+      </div>
+
+      <div class="scroll-cue">
+        <span>向下探索旅程</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4v12m0 0l-4-4m4 4l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ Overview – Horizontal Scroll Timeline ═══ -->
+  <section id="overview" class="section">
+    <header class="sec-hd">
+      <h2>行程总览</h2>
+      <p>左右滑动 · 点击卡片跳转详情</p>
+    </header>
+    <div class="overview-track-wrap">
+      <button class="ov-arrow ov-arrow--left" aria-label="向左滚动">‹</button>
+      <div class="overview-track" id="overviewTrack"></div>
+      <button class="ov-arrow ov-arrow--right" aria-label="向右滚动">›</button>
+    </div>
+    <!-- progress dots -->
+    <div class="ov-progress" id="ovProgress"></div>
+  </section>
+
+  <!-- ═══ Map ═══ -->
+  <section id="map-section" class="section">
+    <header class="sec-hd">
+      <h2>旅行轨迹</h2>
+      <p>选择日期查看每日路线</p>
+    </header>
+    <nav id="day-selector" aria-label="选择行程日"></nav>
+    <div id="map"></div>
+    <div id="route-info"></div>
+  </section>
+
+  <!-- ═══ Daily Detail ═══ -->
+  <section id="daily-details" class="section">
+    <header class="sec-hd">
+      <h2>每日攻略</h2>
+      <p>滑动探索每一天的精彩</p>
+    </header>
+    <div id="daily-cards"></div>
+  </section>
+
+  <!-- ═══ Tips ═══ -->
+  <section id="tips-section" class="section">
+    <header class="sec-hd">
+      <h2>旅行贴士</h2>
+      <p>出发前必看</p>
+    </header>
+    <div id="tips-grid"></div>
+  </section>
+
+  <!-- ═══ Footer ═══ -->
+  <footer class="site-footer">
+    <p>Made with ❤️ for our honeymoon adventure</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

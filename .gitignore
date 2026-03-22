@@ -1,0 +1,16 @@
+# WorkBuddy project data
+.workbuddy/
+
+# macOS
+.DS_Store
+._*
+
+# Temporary/utility scripts
+download_all_images.py
+download_images.sh
+download_real_images.sh
+download_real.py
+fix_images.py
+
+# Backup images (keep only production images)
+images/backup_ai/
