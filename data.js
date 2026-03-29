@@ -26,7 +26,7 @@ const TRIP_DATA = {
       theme: "travel",
       color: "#FF6B35",
       image: "images/sydney_opera_house.webp",
-      stay: "悉尼 Sydney",
+      stay: "Hotel Indigo Sydney Potts Point",
       coords: { lat: -33.8688, lng: 151.2093 },
       route: null,
       transport: {
@@ -36,7 +36,7 @@ const TRIP_DATA = {
       highlights: [
         "亚航D7331 浦东T2出发，经吉隆坡转机抵达悉尼",
         "吉隆坡转机约2小时（Plan B预留10h中转）",
-        "傍晚到达悉尼，入住环形码头附近酒店",
+        "傍晚到达悉尼，入住Potts Point酒店",
         "如天色尚可，环形码头夜景速拍"
       ],
       tips: "💡 马来西亚120h过境免签 | 提前办好澳洲ETA签证 | 三孔斜插转换头",
@@ -48,32 +48,32 @@ const TRIP_DATA = {
       day: 2,
       date: "04.19",
       weekday: "周日",
-      title: "悉尼经典景点巡礼",
+      title: "美术馆 · 邦迪 · 日落渡轮",
       location: "悉尼",
       country: "australia",
       theme: "sightseeing",
       color: "#00B4D8",
-      image: "images/sydney_harbour_bridge.webp",
-      stay: "悉尼 Sydney",
+      image: "images/sydney_bondi_beach.webp",
+      stay: "Hotel Indigo Sydney Potts Point",
       coords: { lat: -33.8568, lng: 151.2153 },
       route: [
-        { lat: -33.8568, lng: 151.2153, name: "悉尼歌剧院" },
-        { lat: -33.8599, lng: 151.2093, name: "皇家植物园" },
-        { lat: -33.8602, lng: 151.2114, name: "麦考利夫人座椅" },
-        { lat: -33.8523, lng: 151.2108, name: "岩石区 / 天文台山" },
+        { lat: -33.8690, lng: 151.2178, name: "新南威尔士美术馆" },
+        { lat: -33.8696, lng: 151.2069, name: "维多利亚女王大厦 QVB" },
+        { lat: -33.8733, lng: 151.2113, name: "海德公园" },
+        { lat: -33.8915, lng: 151.2767, name: "邦迪海滩" },
         { lat: -33.8523, lng: 151.2108, name: "海港大桥步行" },
-        { lat: -33.8676, lng: 151.2013, name: "达令港" }
+        { lat: -33.8568, lng: 151.2153, name: "日落渡轮" }
       ],
       highlights: [
-        "悉尼歌剧院 — 建筑导览 Architecture Tour（A$42/人，有中文，需预约）",
-        "皇家植物园 → 麦考利夫人座椅 — 拍经典三件套",
-        "岩石区 → 天文台山 ★ — 制高点俯瞰海港全景（免费，朋友强推）",
-        "海港大桥步行（桥面人行道免费）",
-        "日落渡轮 ★ 推荐！ — Opal卡刷卡，船上看海港金光"
+        "新南威尔士美术馆 — 免费，新馆+旧馆（建议2-3小时）",
+        "维多利亚女王大厦 QVB — 罗马复兴式建筑，精美穹顶（免费参观）",
+        "海德公园 — 悉尼最古老的公园（如美术馆出来较晚可选择性逛）",
+        "邦迪海滩 — 经典海滩，拍照散步",
+        "日落前赶回港区 → 步行海港大桥 → 日落渡轮 ★（Opal卡刷卡，周日封顶$2.8）"
       ],
-      food: "🍽️ 午餐：The Glenmore / Opera Bar（人均A$30-50）| 晚餐：达令港区域（人均A$40-60）",
-      tips: "💡 周日Opal卡全天公交封顶$2.8 | 歌剧院导览提前官网预约 | 天文台山人少且美",
-      budget: "歌剧院导览 A$42/人 | 公交全天 A$2.8"
+      food: "🍽️ 午餐：美术馆附近cafe（人均A$25-40）| 晚餐：达令港区域（人均A$40-60）",
+      tips: "💡 周日Opal卡全天公交封顶$2.8 | 合理规划时间，日落前务必赶到海港大桥",
+      budget: "美术馆免费 | QVB免费 | 公交全天 A$2.8"
     },
 
     // ===== DAY 3 · 4/20 周一 =====
@@ -81,28 +81,33 @@ const TRIP_DATA = {
       day: 3,
       date: "04.20",
       weekday: "周一",
-      title: "美术馆 · 家人聚餐",
+      title: "💍 悉尼婚纱拍摄日",
       location: "悉尼",
       country: "australia",
-      theme: "sightseeing",
-      color: "#2EC4B6",
-      image: "images/sydney_bondi_beach.webp",
-      stay: "悉尼 Sydney",
-      coords: { lat: -33.8690, lng: 151.2178 },
+      theme: "adventure",
+      color: "#D4A373",
+      image: "images/sydney_harbour_bridge.webp",
+      stay: "Hotel Indigo Sydney Potts Point",
+      coords: { lat: -33.8688, lng: 151.2093 },
       route: [
-        { lat: -33.8690, lng: 151.2178, name: "新南威尔士美术馆" },
-        { lat: -33.8688, lng: 151.2093, name: "与家人聚餐" },
-        { lat: -33.8915, lng: 151.2767, name: "邦迪海滩（如时间允许）" }
+        { lat: -33.8688, lng: 151.2093, name: "市中心Citywalk + Brunch" },
+        { lat: -33.8866, lng: 151.1868, name: "悉尼大学" },
+        { lat: -33.8568, lng: 151.2153, name: "悉尼歌剧院（最佳机位）" },
+        { lat: -33.8617, lng: 151.2111, name: "Circular Quay地铁站" },
+        { lat: -33.8596, lng: 151.2037, name: "天文台山（日落）" },
+        { lat: -33.8676, lng: 151.2013, name: "达令港（蓝调时刻）" }
       ],
       highlights: [
-        "新南威尔士州美术馆 — 免费，新馆+旧馆建议2-3小时",
-        "中午/下午与家人聚餐（预留2-3小时）",
-        "⚠️ 白兔美术馆周一闭馆！如想去需改至其他日",
-        "傍晚如聚餐结束早 → 邦迪海滩看海散步（面朝东南，无海上日落）"
+        "上午市中心Citywalk，吃Brunch → 回酒店妆造准备",
+        "📸 悉尼大学 — 哈利波特风格主楼，绝美取景地",
+        "📸 悉尼歌剧院 — 不一定在门口，需找到最佳拍摄位",
+        "📸 Circular Quay地铁站 — 城市感场景",
+        "📸 天文台山日落 — 海港全景+金色光线 ★",
+        "📸 蓝调达令港 — 蓝调时刻港口灯光 ★ → 港口附近晚餐"
       ],
-      food: "🍽️ 与家人聚餐（地点待定）",
-      tips: "💡 美术馆10am-5pm周一也开放 | 邦迪到库吉步道前半段（Bondi→Bronte 3km 1h）可选",
-      budget: "美术馆免费 | 聚餐费用另计"
+      food: "🍽️ 上午Brunch（人均A$25-40）| 晚餐：达令港蓝调拍完后就近用餐（可能较晚）",
+      tips: "💡 家人下午陪同行程&协助拍摄 | 路线按地理顺序安排：大学→歌剧院→CQ→天文台山→达令港 | 天文台山日落约5:30pm",
+      budget: "餐饮约 A$80-120/两人"
     },
 
     // ===== DAY 4 · 4/21 周二 =====
@@ -110,13 +115,13 @@ const TRIP_DATA = {
       day: 4,
       date: "04.21",
       weekday: "周二",
-      title: "悉尼自由活动 · 飞基督城",
+      title: "鱼市场 · 悉尼半日 · 飞基督城",
       location: "悉尼 → 基督城",
       country: "newzealand",
       theme: "travel",
       color: "#6C63FF",
       image: "images/sydney_fish_market.webp",
-      stay: "基督城 Christchurch（机场附近）",
+      stay: "Sudima Hotel Christchurch Airport",
       coords: { lat: -43.5321, lng: 172.6362 },
       route: null,
       transport: {
@@ -124,14 +129,15 @@ const TRIP_DATA = {
         detail: "新西兰航空 NZ224 悉尼→基督城 18:10-23:20（3h10m）"
       },
       highlights: [
-        "上午自由活动：鱼市场吃海鲜早午餐（人均A$30-50）",
-        "可选：天文台山 / 白兔美术馆（周二开放）/ 邦迪步道",
-        "下午15:00前往机场",
-        "NZ224 18:10起飞，23:20到达基督城"
+        "🐟 鱼市场吃海鲜早午餐（人均A$30-50）— 生蚝+龙虾+三文鱼",
+        "🌉 海港大桥步行 — 桥面人行道免费，拍城市天际线",
+        "自由活动：岩石区/皇家植物园/麦考利夫人座椅等（视时间灵活安排）",
+        "🐨 可选：塔龙加动物园 Taronga Zoo（渡轮12min+门票A$51/人）",
+        "下午15:00前往机场 → NZ224 18:10飞基督城"
       ],
       food: "🍽️ 鱼市场 Sydney Fish Market — 生蚝+龙虾+三文鱼（人均A$30-50）",
-      tips: "💡 到达基督城较晚，住机场附近次日取车方便",
-      budget: "鱼市场 A$30-50/人 | 机票已含"
+      tips: "💡 到达基督城较晚，住机场附近次日取车方便 | 动物园可坐渡轮去，本身也是看海港好角度",
+      budget: "鱼市场 A$30-50/人 | 动物园 A$51/人（可选）| 机票已含"
     },
 
     // ===== DAY 5 · 4/22 周三 =====
@@ -229,28 +235,28 @@ const TRIP_DATA = {
       day: 8,
       date: "04.25",
       weekday: "周六",
-      title: "💍 婚纱照拍摄日",
+      title: "皇后镇休闲日",
       location: "皇后镇 · 格林诺奇 · 箭镇",
       country: "newzealand",
-      theme: "adventure",
+      theme: "sightseeing",
       color: "#D4A373",
       image: "images/glenorchy_wedding.webp",
       stay: "皇后镇 Queenstown",
       coords: { lat: -44.8489, lng: 168.3794 },
       route: [
-        { lat: -45.0312, lng: 168.6626, name: "皇后镇（妆造）", dist: "" },
+        { lat: -45.0312, lng: 168.6626, name: "皇后镇（睡懒觉）", dist: "" },
         { lat: -44.8489, lng: 168.3794, name: "格林诺奇 Glenorchy", dist: "45min" },
-        { lat: -44.9419, lng: 168.8222, name: "箭镇 Arrowtown（返程）", dist: "1h15min" },
+        { lat: -44.9419, lng: 168.8222, name: "箭镇 Arrowtown", dist: "1h15min" },
         { lat: -45.0312, lng: 168.6626, name: "皇后镇", dist: "20min" }
       ],
       highlights: [
-        "💄 上午妆造准备（约9:00开始，2-3小时）",
-        "📸 格林诺奇/天堂之路 — 魔戒取景地，草甸+雪山（核心拍摄14:30-16:30）",
-        "⚠️ 最佳机位需步行30min！轻装到达再换婚纱",
-        "🍂 箭镇 — 4月底秋色最美，黄金光线拍秋色（17:00-17:30）"
+        "😴 睡个懒觉，悠闲开启一天",
+        "🏔️ 格林诺奇/天堂之路 — 魔戒取景地，草甸+雪山",
+        "🍂 箭镇 — 4月底秋色最美，漫步历史小镇",
+        "🛒 皇后镇小镇闲逛 / TSS蒸汽船（可选）"
       ],
       food: "🍽️ 格林诺奇Café午餐 | 🍷 晚餐：Rata 皇后镇西餐（人均NZ$50-80，建议预约）",
-      tips: "💡 天气不好改室内备选 | 格林诺奇路况注意 | 带背包装婚纱+换鞋+补妆用品",
+      tips: "💡 今天轻松游玩，享受秋色 | 格林诺奇路况注意 | 箭镇秋色隧道必看",
       budget: "餐饮约 NZ$100-150/两人"
     },
 
@@ -290,7 +296,7 @@ const TRIP_DATA = {
       day: 10,
       date: "04.27",
       weekday: "周一",
-      title: "库克山 · 胡克谷步道",
+      title: "库克山 · Tasman步道 · 日照金山",
       location: "瓦纳卡 → 库克山 → 特威泽尔",
       country: "newzealand",
       theme: "adventure",
@@ -302,7 +308,7 @@ const TRIP_DATA = {
         { lat: -44.6933, lng: 169.1321, name: "瓦纳卡 Wanaka", dist: "" },
         { lat: -44.5800, lng: 169.6600, name: "林迪斯山口 Lindis Pass", dist: "60km · 50min" },
         { lat: -44.1700, lng: 170.1000, name: "普卡基湖 Lake Pukaki", dist: "80km · 1h" },
-        { lat: -43.7340, lng: 170.0960, name: "库克山 Mt Cook（胡克谷步道）", dist: "60km · 50min" },
+        { lat: -43.7340, lng: 170.0960, name: "库克山 Tasman步道", dist: "60km · 50min" },
         { lat: -44.2650, lng: 170.0980, name: "特威泽尔 Twizel", dist: "55km · 40min" }
       ],
       driveInfo: { totalKm: "约270km", totalTime: "约3.5h（不含步道）" },
@@ -310,10 +316,11 @@ const TRIP_DATA = {
         "🏜️ 林迪斯山口 — 金色丘陵起伏，壮阔公路风光",
         "💎 普卡基湖 — 牛奶蓝冰川湖 + 彼得观景台看库克山全景",
         "🍣 湖边冰川三文鱼 Mt Cook Alpine Salmon（NZ$15-25，小红书必吃！）",
-        "🥾 胡克谷步道 Hooker Valley — 往返3h，三座吊桥，终点冰川湖+库克山 ★★★"
+        "🥾 Tasman步道 — 1.5h往返，起点Tasman Glacier Car Park，观景台俯瞰Tasman冰川湖 ★★★",
+        "🌄 日照金山 — 傍晚库克山被金色夕阳照亮，极其壮观 ★★★"
       ],
       food: "🍣 冰川三文鱼刺身（人均NZ$15-25）| 🍽️ 晚餐：Twizel Jasmine Thai / Poppies Cafe（人均NZ$25-40）",
-      tips: "💡 不住库克山村（太贵NZ$400+），住Twizel性价比极高 | 步道吊桥上风大握紧相机 | 晚上Twizel光污染低可观星",
+      tips: "💡 不住库克山村（太贵NZ$400+），住Twizel性价比极高 | Tasman步道轻松好走，终点观景台看冰川湖 | 日照金山需在傍晚5点前后到达观景点",
       budget: "步道免费 | 三文鱼 NZ$15-25/人"
     },
 
@@ -322,19 +329,19 @@ const TRIP_DATA = {
       day: 11,
       date: "04.28",
       weekday: "周二",
-      title: "特卡波 · 还车 · 基督城",
+      title: "特卡波 · 好牧羊人 · 基督城",
       location: "特威泽尔 → 特卡波 → 基督城",
       country: "newzealand",
       theme: "driving",
       color: "#1B4965",
       image: "images/lake_tekapo.webp",
-      stay: "基督城 Christchurch",
+      stay: "Ramada Suites Christchurch City",
       coords: { lat: -43.5321, lng: 172.6362 },
       route: [
         { lat: -44.2650, lng: 170.0980, name: "特威泽尔 Twizel", dist: "" },
         { lat: -44.0047, lng: 170.4772, name: "特卡波 Lake Tekapo", dist: "60km · 45min" },
         { lat: -43.7900, lng: 171.2400, name: "杰拉尔丁 Geraldine", dist: "110km · 1.5h" },
-        { lat: -43.5321, lng: 172.6362, name: "基督城（还车）", dist: "117km · 1.5h" }
+        { lat: -43.5321, lng: 172.6362, name: "基督城", dist: "117km · 1.5h" }
       ],
       driveInfo: { totalKm: "约287km", totalTime: "约3.5-4h" },
       highlights: [
@@ -344,7 +351,7 @@ const TRIP_DATA = {
         "🚋 基督城有轨电车 ★ — NZ$35/人全天票，坐一圈把City逛完"
       ],
       food: "🥧 午餐：杰拉尔丁 Barker's（人均NZ$15-25）| 🍽️ 晚餐：Fiddlesticks / King of Snake（人均NZ$35-55）",
-      tips: "💡 还车前加满油！ | 好牧羊人教堂值得早起 | 新摄政街彩色西班牙风建筑必看 | 悬浮房子艺术装置有趣",
+      tips: "💡 好牧羊人教堂值得早起 | 新摄政街彩色西班牙风建筑必看 | 叮叮车+步行最高效逛基督城",
       budget: "叮叮车 NZ$35/人 | 油费最后一箱约NZ$40"
     },
 
@@ -353,13 +360,13 @@ const TRIP_DATA = {
       day: 12,
       date: "04.29",
       weekday: "周三",
-      title: "基督城漫游 · 飞奥克兰",
+      title: "基督城漫游 · 还车 · 飞奥克兰",
       location: "基督城 → 奥克兰",
       country: "newzealand",
       theme: "travel",
       color: "#457B9D",
       image: "images/chch_tram.webp",
-      stay: "奥克兰 Auckland",
+      stay: "Four Points by Sheraton Auckland",
       coords: { lat: -36.8485, lng: 174.7633 },
       route: null,
       transport: {
@@ -370,6 +377,7 @@ const TRIP_DATA = {
         "🍂 哈格利公园 Hagley Park — 秋色林荫大道（免费）",
         "🌺 植物园 Botanic Gardens — 免费漫步",
         "🪑 185把白椅子纪念装置 — 地震纪念（免费）",
+        "🚗 下午开车去机场 → ⛽加满油 → 还车",
         "✈️ 捷星JQ240 18:55→20:20 飞奥克兰（⚠️廉航无免费托运！）"
       ],
       food: "🍽️ 午餐：基督城市区（人均NZ$20-35）| 晚餐：到奥克兰后简餐",
@@ -388,7 +396,7 @@ const TRIP_DATA = {
       theme: "sightseeing",
       color: "#E07A5F",
       image: "images/auckland_sky_tower.webp",
-      stay: "奥克兰 Auckland",
+      stay: "Four Points by Sheraton Auckland",
       coords: { lat: -36.8485, lng: 174.7633 },
       route: [
         { lat: -36.8485, lng: 174.7633, name: "天空塔 Sky Tower" },
@@ -419,7 +427,7 @@ const TRIP_DATA = {
       theme: "sightseeing",
       color: "#BC6C25",
       image: "images/auckland_devonport.webp",
-      stay: "奥克兰 Auckland",
+      stay: "Four Points by Sheraton Auckland",
       coords: { lat: -36.8313, lng: 174.7946 },
       route: [
         { lat: -36.8485, lng: 174.7633, name: "奥克兰市中心（渡轮码头）" },
