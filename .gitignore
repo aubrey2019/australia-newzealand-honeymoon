@@ -14,3 +14,9 @@ fix_images.py
 
 # Backup images (keep only production images)
 images/backup_ai/
+
+# Skills / IDE config
+.agents/
+.codebuddy/
+.trae/
+skills-lock.json

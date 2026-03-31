@@ -151,7 +151,7 @@ const TRIP_DATA = {
       theme: "driving",
       color: "#F77F00",
       image: "images/dunedin_railway.webp",
-      stay: "达尼丁 Dunedin",
+      stay: "Airbnb · Dunedin",
       coords: { lat: -45.8788, lng: 170.5028 },
       route: [
         { lat: -43.5321, lng: 172.6362, name: "基督城（取车）", dist: "" },
@@ -182,7 +182,7 @@ const TRIP_DATA = {
       theme: "driving",
       color: "#118AB2",
       image: "images/te_anau_glowworm.webp",
-      stay: "蒂阿瑙 Te Anau",
+      stay: "Asure Explorer Motel Te Anau",
       coords: { lat: -45.4146, lng: 167.7180 },
       route: [
         { lat: -45.8788, lng: 170.5028, name: "达尼丁 Dunedin", dist: "" },
@@ -211,7 +211,7 @@ const TRIP_DATA = {
       theme: "adventure",
       color: "#E63946",
       image: "images/queenstown_skyline.webp",
-      stay: "皇后镇 Queenstown",
+      stay: "Airbnb · 5 Kahiwi Dr, Queenstown",
       coords: { lat: -45.0312, lng: 168.6626 },
       route: [
         { lat: -45.4146, lng: 167.7180, name: "蒂阿瑙 Te Anau", dist: "" },
@@ -241,7 +241,7 @@ const TRIP_DATA = {
       theme: "sightseeing",
       color: "#D4A373",
       image: "images/glenorchy_wedding.webp",
-      stay: "皇后镇 Queenstown",
+      stay: "Airbnb · 5 Kahiwi Dr, Queenstown",
       coords: { lat: -44.8489, lng: 168.3794 },
       route: [
         { lat: -45.0312, lng: 168.6626, name: "皇后镇（睡懒觉）", dist: "" },
@@ -271,7 +271,7 @@ const TRIP_DATA = {
       theme: "driving",
       color: "#8338EC",
       image: "images/wanaka_tree.webp",
-      stay: "瓦纳卡 Wanaka",
+      stay: "Airbnb · Wanaka",
       coords: { lat: -44.6933, lng: 169.1321 },
       route: [
         { lat: -45.0312, lng: 168.6626, name: "皇后镇 Queenstown", dist: "" },
@@ -296,31 +296,32 @@ const TRIP_DATA = {
       day: 10,
       date: "04.27",
       weekday: "周一",
-      title: "库克山 · Tasman步道 · 日照金山",
-      location: "瓦纳卡 → 库克山 → 特威泽尔",
+      title: "库克山 · Tasman步道 · 特卡波",
+      location: "瓦纳卡 → 库克山 → 特卡波",
       country: "newzealand",
       theme: "adventure",
       color: "#06D6A0",
       image: "images/hooker_valley.webp",
-      stay: "特威泽尔 Twizel",
-      coords: { lat: -43.7340, lng: 170.0960 },
+      stay: "Airbnb · Lake Tekapo",
+      coords: { lat: -44.0047, lng: 170.4772 },
       route: [
         { lat: -44.6933, lng: 169.1321, name: "瓦纳卡 Wanaka", dist: "" },
         { lat: -44.5800, lng: 169.6600, name: "林迪斯山口 Lindis Pass", dist: "60km · 50min" },
         { lat: -44.1700, lng: 170.1000, name: "普卡基湖 Lake Pukaki", dist: "80km · 1h" },
         { lat: -43.7340, lng: 170.0960, name: "库克山 Tasman步道", dist: "60km · 50min" },
-        { lat: -44.2650, lng: 170.0980, name: "特威泽尔 Twizel", dist: "55km · 40min" }
+        { lat: -44.0047, lng: 170.4772, name: "特卡波 Lake Tekapo", dist: "105km · 1.5h" }
       ],
-      driveInfo: { totalKm: "约270km", totalTime: "约3.5h（不含步道）" },
+      driveInfo: { totalKm: "约320km", totalTime: "约4h（不含步道）" },
       highlights: [
         "🏜️ 林迪斯山口 — 金色丘陵起伏，壮阔公路风光",
         "💎 普卡基湖 — 牛奶蓝冰川湖 + 彼得观景台看库克山全景",
         "🍣 湖边冰川三文鱼 Mt Cook Alpine Salmon（NZ$15-25，小红书必吃！）",
         "🥾 Tasman步道 — 1.5h往返，起点Tasman Glacier Car Park，观景台俯瞰Tasman冰川湖 ★★★",
-        "🌄 日照金山 — 傍晚库克山被金色夕阳照亮，极其壮观 ★★★"
+        "🌄 日照金山 — 傍晚库克山被金色夕阳照亮，极其壮观 ★★★",
+        "🌌 特卡波湖观星 — 世界级暗夜保护区，肉眼可见银河"
       ],
-      food: "🍣 冰川三文鱼刺身（人均NZ$15-25）| 🍽️ 晚餐：Twizel Jasmine Thai / Poppies Cafe（人均NZ$25-40）",
-      tips: "💡 不住库克山村（太贵NZ$400+），住Twizel性价比极高 | Tasman步道轻松好走，终点观景台看冰川湖 | 日照金山需在傍晚5点前后到达观景点",
+      food: "🍣 冰川三文鱼刺身（人均NZ$15-25）| 🍽️ 晚餐：特卡波 Kohan Japanese / Run 76 Cafe（人均NZ$25-40）",
+      tips: "💡 库克山下来直奔特卡波（约1.5h） | Tasman步道轻松好走 | 特卡波是世界级观星地，晚上别错过",
       budget: "步道免费 | 三文鱼 NZ$15-25/人"
     },
 
@@ -329,8 +330,8 @@ const TRIP_DATA = {
       day: 11,
       date: "04.28",
       weekday: "周二",
-      title: "特卡波 · 好牧羊人 · 基督城",
-      location: "特威泽尔 → 特卡波 → 基督城",
+      title: "好牧羊人教堂 · 基督城",
+      location: "特卡波 → 基督城",
       country: "newzealand",
       theme: "driving",
       color: "#1B4965",
@@ -338,12 +339,11 @@ const TRIP_DATA = {
       stay: "Ramada Suites Christchurch City",
       coords: { lat: -43.5321, lng: 172.6362 },
       route: [
-        { lat: -44.2650, lng: 170.0980, name: "特威泽尔 Twizel", dist: "" },
-        { lat: -44.0047, lng: 170.4772, name: "特卡波 Lake Tekapo", dist: "60km · 45min" },
+        { lat: -44.0047, lng: 170.4772, name: "特卡波 Lake Tekapo", dist: "" },
         { lat: -43.7900, lng: 171.2400, name: "杰拉尔丁 Geraldine", dist: "110km · 1.5h" },
         { lat: -43.5321, lng: 172.6362, name: "基督城", dist: "117km · 1.5h" }
       ],
-      driveInfo: { totalKm: "约287km", totalTime: "约3.5-4h" },
+      driveInfo: { totalKm: "约227km", totalTime: "约3h" },
       highlights: [
         "⛪ 好牧羊人教堂 — 清晨人少拍照最佳（免费）",
         "☕ Astro Cafe 打卡（需上山，景色绝佳）",
@@ -352,7 +352,7 @@ const TRIP_DATA = {
       ],
       food: "🥧 午餐：杰拉尔丁 Barker's（人均NZ$15-25）| 🍽️ 晚餐：Fiddlesticks / King of Snake（人均NZ$35-55）",
       tips: "💡 好牧羊人教堂值得早起 | 新摄政街彩色西班牙风建筑必看 | 叮叮车+步行最高效逛基督城",
-      budget: "叮叮车 NZ$35/人 | 油费最后一箱约NZ$40"
+      budget: "叮叮车 NZ$35/人 | 油费约NZ$40"
     },
 
     // ===== DAY 12 · 4/29 周三 =====
